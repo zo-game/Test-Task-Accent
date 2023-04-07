@@ -6,7 +6,6 @@ export const HeaderComponent = () => {
     const navigate = useNavigate();
     const onClick = () => {
         navigate('../');
-
     }
 
     return (

@@ -1,6 +1,6 @@
 import { ProductType } from "./productType"
 
-export type ProductInBasketType = {
+export interface ProductInBasketType {
     product: ProductType,
     count: number
 }

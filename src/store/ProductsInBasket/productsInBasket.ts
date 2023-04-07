@@ -1,7 +1,5 @@
 import { makeAutoObservable, configure } from 'mobx';
 import { ProductInBasketType, ProductType } from '../../Types';
-import products from '../../../public/assets/products.json';
-
 
 class ProductInBasket {
     products : ProductInBasketType[] = [];

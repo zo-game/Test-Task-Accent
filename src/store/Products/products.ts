@@ -43,7 +43,6 @@ class Products {
             default:
                 break;
         }
-
     }
 
     resetFilter(){

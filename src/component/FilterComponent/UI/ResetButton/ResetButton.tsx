@@ -1,6 +1,5 @@
 import styles from './styles.module.css';
-import svg from '../../../../../public/assets/images/cross.svg'
-
+import svg from '../../../../../public/assets/images/cross.svg';
 
 interface SubmitButtonProps {
     onReset: React.MouseEventHandler<HTMLDivElement>

@@ -1,8 +1,7 @@
 import { productInBasket } from "../../store/ProductsInBasket/productsInBasket";
 import styles from './styles.module.css';
-import { ItemInBasketComponent, HeaderComponent, OrderButton, PriceCounter } from "../../component";
+import { ItemInBasketComponent, HeaderComponent, OrderButton, PriceCounter, CloseBasketButton} from "../../component";
 import { ProductInBasketType } from "../../Types";
-import { CloseBasketButton } from "../../component";
 
 export const BasketPage = () => {
     const wholePrice = productInBasket.calculatePrice();

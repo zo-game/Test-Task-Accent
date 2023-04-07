@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { ProductType } from '../../Types';
 import { productInBasket } from '../../store/ProductsInBasket/productsInBasket';
 import { PopupMessage } from '../PopupMessage/PopupMessage';
-import { observer } from 'mobx-react-lite';
 
 type ItemBasketProps = {
     item: ProductType

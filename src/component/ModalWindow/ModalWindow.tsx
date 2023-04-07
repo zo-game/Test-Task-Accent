@@ -1,7 +1,6 @@
 import { Dispatch, SetStateAction } from 'react';
 import styles from './styles.module.css';
 import { ProductType } from '../../Types';
-import img from '../../../public/assets/images/1.png'
 
 interface ModalWindowProps{
     setModal: Dispatch<SetStateAction<boolean>>,

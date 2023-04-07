@@ -1,6 +1,5 @@
-import { FilterComponent, BrandComponent, SortComponent } from "../../component";
+import { FilterComponent, BrandComponent, SortComponent, HeaderComponent } from "../../component";
 import { ProductType } from "../../Types";
-import { HeaderComponent } from "../../component";
 import { useParams, useNavigate } from "react-router-dom";
 import { Pagination } from "antd";
 import { observer } from "mobx-react-lite";

@@ -1,11 +1,11 @@
 
-import styles from './styles.module.css'
 import { BrandCheckBox, SubmitButton, ResetButton } from './UI';
 import type { CheckboxChangeEvent } from 'antd/es/checkbox';
 import { useState } from 'react';
 import { productItems } from '../../store/Products/products';
-import brands from '../../../public/assets/brands.json';
 import { BrandType } from '../../Types';
+import styles from './styles.module.css';
+import brands from '../../../public/assets/brands.json';
 
 export const FilterComponent = () => {
    const [checkedBrands, changeCheckedBrands] = useState<number[]>([]);
