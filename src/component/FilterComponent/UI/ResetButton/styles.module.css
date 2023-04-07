@@ -1,0 +1,22 @@
+.resetBtnContainer{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.resetBtn{
+    color: #66A3D2;
+    text-decoration:underline;
+    vertical-align: middle;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+
+}
+.resetBtn:hover{
+    cursor: pointer;
+}
+
+.cross{
+    width: 20px;
+}

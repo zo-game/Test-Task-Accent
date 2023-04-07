@@ -1,0 +1,43 @@
+.basketContainer{
+    display: inline-flex;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.basketContainer:hover::before{
+    content: '';
+    position: relative;
+    top: 15px;
+    left: 65px;
+    width: 55px;
+    height: 2px;
+    background: #fff;
+    animation: underline 1s ease-in-out forwards;
+}
+
+.itemsBasket{
+    height: 30px;
+}
+
+@keyframes underline{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 700px){
+    .itemsBasket{
+        height: 40px;
+    }
+    .basketContainer{
+        font-size: larger;
+    }
+}

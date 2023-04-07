@@ -1,0 +1,33 @@
+.sortComponentContainer{
+    position: absolute; 
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;  
+    right: 2%;
+    background: #7373D9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.textRadio{
+    color: white;
+}
+
+.sortComponent{
+    user-select: none;
+    color: white;
+}
+
+@media (max-width: 700px){
+    .sortComponentContainer{
+        position:static; 
+        text-align: center;
+        margin: 0 auto; 
+        top: 500px;
+    }
+}

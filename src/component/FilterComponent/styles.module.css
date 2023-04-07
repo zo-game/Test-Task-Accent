@@ -1,0 +1,43 @@
+.brandsFilterContainer{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 500px;  
+    left: 2%;
+    position: absolute; 
+}
+
+.brandsFilter{
+    user-select: none;
+}
+
+.brandsFilter > div{
+    margin-bottom: 5px;
+}
+
+.brandsFilter:last-child{
+    margin-bottom: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18%;
+}
+
+.buttons > div{
+    user-select: none;
+}
+
+@media (max-width: 700px){
+    .brandsFilterContainer{
+        text-align: center;
+        position:static; 
+        margin: 0 auto;   
+    }
+}

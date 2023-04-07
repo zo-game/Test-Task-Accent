@@ -1,0 +1,86 @@
+.modalWindowContainer{
+    top: 0px;
+    left: 0px;
+    z-index: 110;    
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #0000007e;
+    padding: 10% 0;  
+}
+
+.modalWindow{
+    display: grid;
+    background: #fff;
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.modalWindow > div{
+    border-bottom: 1px solid black;
+}
+
+.modalWindow > div:first-of-type{
+    border-bottom: none;
+}
+
+.modalWindow > div:last-of-type{
+    border-bottom: none;
+}
+
+.closeButton{
+    display: inline;
+    font-size: x-large;
+    grid-column: 4/4;
+    grid-row: 1/1;
+    text-align: end;
+    user-select: none;
+    cursor: pointer;
+}
+
+.description{
+    grid-column: 1/5;
+    grid-row: 1/1;
+    text-align: center;
+    font-size: larger;
+}
+
+.productTitle{
+    grid-column: 1/3;
+    grid-row: 3/3;
+    text-align: center;
+}
+
+.productType{
+    grid-column: 1/3;
+    grid-row: 4/4;
+    text-align: center;
+}
+.productBrand{
+    grid-column: 1/3;
+    grid-row: 5/5;
+    text-align: center;
+}
+.productPrice{
+    grid-column: 1/3;
+    grid-row: 6/6;
+    text-align: center;
+}
+.productImage{
+    grid-column: 3/5;
+    grid-row: 3/5;
+    width: 100%;
+
+}
+
+@media (max-width: 600px){
+    .modalWindow{
+        width: 60%;
+        height: 60%;
+    }
+}

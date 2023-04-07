@@ -1,0 +1,14 @@
+.closeButton{
+    background: #ff0000;
+    display: flex;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size:larger;
+    cursor: pointer;
+    user-select: none;
+}

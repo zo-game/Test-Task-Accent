@@ -1,0 +1,10 @@
+.priceCounter{
+    
+    top: 50%;
+}
+
+@media (max-width: 700px){
+    .priceCounter{
+        position: absolute;
+    }
+}
